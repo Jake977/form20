@@ -43,7 +43,6 @@ app.get('/sign-up/', (req, res) => {
 
 app.post('/sign-up/', jsonParser, (req, res) => {
     if (!req.body) return res.sendStatus(400);
-    console.log('req.body: ', req.body);
     res.json(addNewUser(req.body, users));
 });
 
