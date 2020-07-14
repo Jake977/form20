@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Registration Form (Formik / antd / yup)
+
 ## Available Scripts
 
 In the project directory, you can run:
